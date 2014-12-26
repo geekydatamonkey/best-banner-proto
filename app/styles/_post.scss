@@ -3,9 +3,9 @@
   margin: 2em 0;
 
   .vote {
-    width: 17%;
+    width: $width-col-1;
     float: left;
-    margin-right: 3%;
+    margin-right: $width-gutter;
     text-align: center;
     color: $gray-light;
     font-size: 2em;
@@ -23,7 +23,7 @@
     }
   }
   .post-content {
-    width: 80%;
+    width: $width-col-2;
     float: left;
     font-size: 0.9em;
     line-height: 1.4;

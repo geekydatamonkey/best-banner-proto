@@ -1,12 +1,21 @@
 .main-nav {
   position: absolute;
   top: 0;
-  right: 1em;
+  left: 1em;
+  width: $width-col-1;
+  text-align: center;
   h2 {
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 0;
   }
   ul {
     display: none;
+  }
+  a {
+    color: $white;
+    border: 0;
+  }
+  a:hover {
+    color: $black;
   }
 }
