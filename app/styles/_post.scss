@@ -2,6 +2,17 @@
   @include clearfix;
   margin: 2em 0;
 
+  &:hover {
+    .vote {
+      color: $red-light;
+    }
+    .post-image {
+      border-color: $red-light;
+    }
+    .post-content {
+      color: $red-light;
+    }
+  }
   .vote {
     width: $width-col-1;
     float: left;
