@@ -1,0 +1,36 @@
+.page-footer {
+  // background: $gray-light;
+  @include animated-gradient();
+  padding: 2em 0;
+  font-size: 0.9em;
+  color: $white;
+  h1, h2, h3, h4, h5 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+  }
+  .tagline {
+    text-align: center;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .social-media {
+    font-size: 1.5em;
+    text-align: center;
+    color: $white;
+    a {
+      border: none;
+      color: $white;
+    }
+    li {
+      display: inline-block;
+      margin-left: 0.5em;
+    }
+    li:hover a {
+      color: $black;
+    }
+  }
+
+}

@@ -1,11 +1,11 @@
 .announcements {
-  @include container;
   background-color: #eee;
   border: 1px solid #eee; // contain margins
   text-align: center;
   ul {
     margin: 0;
     padding: 0;
+    @include container;
     list-style-type: none;
   }
   li {

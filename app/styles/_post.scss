@@ -1,0 +1,42 @@
+.post {
+  @include clearfix;
+  margin: 2em 0;
+
+  .vote {
+    width: 17%;
+    float: left;
+    margin-right: 3%;
+    text-align: center;
+    color: $gray-light;
+    font-size: 2em;
+    .num-votes {
+      display: block;
+    }
+    &.has-vote{
+      color: $red;
+    }
+  }
+  .vote.has-vote + .post-content {
+    color: $black;
+    .post-image {
+      border-color: $black;
+    }
+  }
+  .post-content {
+    width: 80%;
+    float: left;
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: $gray-light;
+    h1, h2, h3, h4, h5 {
+      font-size: 1em;
+      line-height: inherit;
+    }
+    p {
+      margin: 0;
+    }
+  }
+  .post-image {
+    border: 0.25em solid $gray-lighter;
+  }
+}

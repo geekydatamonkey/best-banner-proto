@@ -20,6 +20,15 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
+img {
+  max-width: 100%;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+  border-bottom: 0.125em solid $blue;
+}
 .container {
   @include container;
 }

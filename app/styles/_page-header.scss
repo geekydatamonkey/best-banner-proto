@@ -1,4 +1,5 @@
 .page-header {
-  background-color: $gray-light;
+  //background-color: $gray-light;
+  @include animated-gradient();
   padding: 3em 0 2em;
 }
